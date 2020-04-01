@@ -1,0 +1,10 @@
+-mode: evaluate
+-candidates: kODT
+-tc: 2
+-ev: 200001
+-on: all
+-store: test_ssr
+-projection: LCC
+-stationPath: data/stations/tide_gauge_data.d35
+-gridDirectory: data/rasterData
+-boundingPath: data/boundingPolygon.csv

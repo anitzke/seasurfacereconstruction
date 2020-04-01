@@ -1,0 +1,13 @@
+-mode: reconstruct
+-candidates: kODT
+-tc: 2
+-ev: 201501,201502,201503,201504,201505,201506,201507,201508,201509,201510,201511,201512
+-on: all
+-store: 2015_Reconstruction_backTo1965
+-rt: 12
+-projection: LCC
+-stationTraining: data/stations/tide_gauge_data_training.d35
+-stationPath: data/stations/tide_gauge_data_reconstruction.d35
+-gridDirectory: data/rasterData
+-boundingPath: data/boundingPolygon.csv
+
