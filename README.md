@@ -12,8 +12,8 @@ configs.txt
 							(2) "reconstruct"
 
 - candidates: *string*, type of triangle candidates
-	- "empty" for Delaunay triangles
-	- "kODT" for k-order Delaunay triangles (default)
+	(1) *empty* for Delaunay triangles
+	(2) *kODT* for k-order Delaunay triangles (default)
 
 - ev: <list epochs>/all				training epochs
 			
