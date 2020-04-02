@@ -5,9 +5,8 @@ INPUT:
 ---------------
 configs.txt
 
-=================================================================================================
-
 PARAMETERS in configs.txt:
+---------------
 
 - mode(1): <string>				mode of processing
 							(1) "evaluate"	(default)
@@ -61,10 +60,9 @@ NOTE (2):
 
 NOTE (3): 	
 	Do not change the order of the last three parameters (stationPath, gridDirectory, boundingPath).
- 					
-=================================================================================================
-							
+ 											
 OUTPUT: 
+---------------
 
 For each of the different output-file-types the program creates a seperate subfolder in results.
 
@@ -104,15 +102,14 @@ times:
 	timeLog.txt: 					contains the runtime of each triangulation seperated into 
 							formulation time and solve time
 	
-=================================================================================================
-
 RUN:
-
+---------------
 	java -jar ssr.jar configs.txt
 
-=================================================================================================
 
 LICENSE:
+---------------
+
 
 This code is released under the GNU Public License (GPL) 3.0.
 
@@ -131,9 +128,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-=================================================================================================
 
 DATA:
+---------------
 
 The raw data can be downloaded at [1] (altimetry data) and [2] (gauge data)
 For the processed data that is input for the program and the result data contact A. Förster (foerster@igg.uni-bonn.de).
