@@ -68,13 +68,16 @@ OUTPUT:
 For each of the different output-file-types the program creates a seperate subfolder in results.
 
 - interpolations:
-	- trainingEpoch_reconstructionEpoch_o.nc: contains the SSA reconstruction archieved with min-error k-OD triangulation
-	- trainingEpoch_reconstructionEpoch_d.nc: contains the SSA reconstruction archieved with Delaunay -  triangulation
+	- trainingEpoch_reconstructionEpoch_o_x.nc: contains the SSA reconstruction archieved with min-error k-OD triangulation
+	- trainingEpoch_reconstructionEpoch_d_x.nc: contains the SSA reconstruction archieved with Delaunay triangulation
+	- for both: 
+		- ending with *i*: interpolated with tide gauge measurements at training epoch
+		- ending with *j*: interpolated with tide gauge measurements at reconstruction epoch
 
 - reconstructions: (only in reconstruction mode)
 	- trainingEpoch_reconstructionEpoch_o.nc: contains the SSA reconstruction archieved with min-error k-OD triangulation
 	- trainingEpoch_reconstructionEpoch_d.nc: contains the SSA reconstruction archieved with Delaunay triangulation
-
+		
 - simpleAnomalies:
 	- trainingEpoch_reconstructionEpoch_o.nc: contains the misfit of computed SSA by ME k-ODT and reference SSA
 	- trainingEpoch_reconstructionEpoch_d.nc: Contains the misfit of computed SSA by Delaunay T and reference SSA
