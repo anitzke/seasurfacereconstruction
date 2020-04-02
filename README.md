@@ -7,15 +7,17 @@ configs.txt
 
 ### PARAMETERS:
 
-- mode(1): <string>				mode of processing
-							(1) "evaluate"	(default)
-							(2) "reconstruct"
+- mode: *string*, mode of processing
+	- *evaluate* (default)
+	- *reconstruct*
 
 - candidates: *string*, type of triangle candidates
-	(1) *empty* for Delaunay triangles
-	(2) *kODT* for k-order Delaunay triangles (default)
+	- *empty* for Delaunay triangles
+	- *kODT* for k-order Delaunay triangles (default)
 
-- ev: <list epochs>/all				training epochs
+- ev: training epochs
+	- *empty* for Delaunay triangles
+	- *kODT* for k-order Delaunay triangles (default)
 			
 - on: <list epochs>/all				reconstruction epochs
 
