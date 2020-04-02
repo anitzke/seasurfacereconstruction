@@ -24,7 +24,7 @@ configs.txt
 	- *all* choosing all available epochs (default)
 
 - projection: projection of the coordinates of TGs and gridded points
-	- "", no projection (default)
+	- omit for no projection (default)
 	- *LCC* for Lambert Conformal Conic projection
 
 - store: new folder in experiments-folder
@@ -67,41 +67,34 @@ OUTPUT:
 
 For each of the different output-file-types the program creates a seperate subfolder in results.
 
-interpolations:
-	trainingEpoch_reconstructionEpoch_o.nc: 	contains the SSA reconstruction archieved with min-error k-OD triangulation
-	
-	trainingEpoch_reconstructionEpoch_d.nc:		contains the SSA reconstruction archieved with Delaunay triangulation
+- interpolations:
+	- trainingEpoch_reconstructionEpoch_o.nc: contains the SSA reconstruction archieved with min-error k-OD triangulation
+	- trainingEpoch_reconstructionEpoch_d.nc: contains the SSA reconstruction archieved with Delaunay -  triangulation
 
-reconstructions: (only in reconstruction mode)
-	trainingEpoch_reconstructionEpoch_o.nc: 	contains the SSA reconstruction archieved with min-error k-OD triangulation
-	
-	trainingEpoch_reconstructionEpoch_d.nc:		contains the SSA reconstruction archieved with Delaunay triangulation
+- reconstructions: (only in reconstruction mode)
+	- trainingEpoch_reconstructionEpoch_o.nc: contains the SSA reconstruction archieved with min-error k-OD triangulation
+	- trainingEpoch_reconstructionEpoch_d.nc: contains the SSA reconstruction archieved with Delaunay triangulation
 
-simpleAnomalies:
-	trainingEpoch_reconstructionEpoch_o.nc: 	contains the misfit of computed SSA by ME k-ODT and reference SSA
-	
-	trainingEpoch_reconstructionEpoch_d.nc:		contains the misfit of computed SSA by Delaunay T and reference SSA
+- simpleAnomalies:
+	- trainingEpoch_reconstructionEpoch_o.nc: contains the misfit of computed SSA by ME k-ODT and reference SSA
+	- trainingEpoch_reconstructionEpoch_d.nc: Contains the misfit of computed SSA by Delaunay T and reference SSA
 											
-squaredAnomalies: 
-	trainingEpoch_reconstructionEpoch_o.nc:		contains the squared misfit of computed SSA by ME k-ODT and reference SSA
-											
-	trainingEpoch_reconstructionEpoch_d.nc: 	contains the squared misfit of computed SSA by ME k-ODT and reference SSA 
+- squaredAnomalies: 
+	- trainingEpoch_reconstructionEpoch_o.nc: contains the squared misfit of computed SSA by ME k-ODT and reference SSA										
+	- trainingEpoch_reconstructionEpoch_d.nc: contains the squared misfit of computed SSA by ME k-ODT and reference SSA 
 										
-statistics: 
-	statisticsLog.txt: 				contains some statistics for every training and reconstruction epoch
+- statistics: 
+	- statisticsLog.txt: contains some statistics for every training and reconstruction epoch
 	
 triangulationCSVs:
-	trainingEpoch_reconstructionEpoch_o.csv: 	contains triangles of with min-error k-OD triangulation
-	
-	trainingEpoch_reconstructionEpoch_d.csv: 	contains triangles of Delaunay triangulation
+	- trainingEpoch_reconstructionEpoch_o.csv: contains triangles of with min-error k-OD triangulation
+	- trainingEpoch_reconstructionEpoch_d.csv: contains triangles of Delaunay triangulation
 				
-validations: 
-	validationLog.txt: 				contains the validations of the computed/evaluated triangulations,
-							if there is no such folder then all triangulations are validate
+- validations: 
+	- validationLog.txt: contains the validations of the computed/evaluated triangulations, if there is no such folder then all triangulations are validate
 
-times:
-	timeLog.txt: 					contains the runtime of each triangulation seperated into 
-							formulation time and solve time
+- times:
+	- timeLog.txt: contains the runtime of each triangulation seperated into formulation time and solve time
 	
 RUN:
 ---------------
