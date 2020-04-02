@@ -135,12 +135,12 @@ The raw data can be downloaded at [1] (altimetry data) and [2] (gauge data)
 For the processed data that is input for the program and the result data contact A. Förster (foerster@igg.uni-bonn.de).
 
 
-[1]ESA, 2020. Sea Level CCI ECV dataset: Time series of gridded sea level anomalies (sla). 
+[1]: ESA, 2020. Sea Level CCI ECV dataset: Time series of gridded sea level anomalies (sla). 
 URL: https://catalogue.ceda.ac.uk/uuid/142052b9dc754f6da47a631e35ec4609,
 doi:10.5270/esa-sea\_level\_cci-msla-1993\_2015-v\_2.0-201612.
 European Space Agency (ESA).
 
-[2]PSMSL, 2020. Tide gauge data. Retrieved 18 Jan 2020
+[2]: PSMSL, 2020. Tide gauge data. Retrieved 18 Jan 2020
 from http://www.psmsl.org/data/obtaining/, Tech. Rep. ,
 Permanent Service for Mean Sea Level (PSMSL).
 
