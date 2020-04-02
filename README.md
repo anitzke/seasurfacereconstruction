@@ -7,39 +7,39 @@ configs.txt
 
 ### PARAMETERS:
 
-- mode: *string*, mode of processing
+- mode: mode of processing
 	- *evaluate* (default)
 	- *reconstruct*
 
-- candidates: *string*, type of triangle candidates
+- candidates: type of triangle candidates
 	- *empty* for Delaunay triangles
 	- *kODT* for k-order Delaunay triangles (default)
 
 - ev: training epochs
-	- *empty* for Delaunay triangles
-	- *kODT* for k-order Delaunay triangles (default)
+	- list epochs seperated by comma
+	- *all* choosing all available epochs (default)
 			
-- on: <list epochs>/all				reconstruction epochs
+- on: reconstruction epochs
+	- list epochs seperated by comma
+	- *all* choosing all available epochs (default)
 
-- projection: <string>				projection of the coordinates of TGs and gridded points
-							- "", no projection (default)
-							- "LCC" for Lambert Conformal Conic projection
+- projection: projection of the coordinates of TGs and gridded points
+	- "", no projection (default)
+	- *LCC* for Lambert Conformal Conic projection
 
-- store: <string>				new folder in experiments-folder
+- store: new folder in experiments-folder
 
-- tc: <int>					number of k for k-order Delaunay triangles, only if parameter "candidates" is "kODT"
+- tc: number (int) of k for k-order Delaunay triangles, only if parameter candidates is *kODT*
 
-- rt: <int>					number of months indicating the period of SSA reconstruction based on the training periodonly,
-					        only for reconstruction mode,
-						for example "-rt: 12" defines the climatological reconstruction
+- rt: number (int) of months indicating the period of SSA reconstruction based on the training periodonly, only for reconstruction mode, for example *-rt: 12* defines the climatological reconstruction
 
-- stationTraining: 				path to the file that contains the tide gauge data for training, only for reconstruction mode
+- stationTraining: path to the file that contains the tide gauge data for training, only for reconstruction mode
 
-- stationPath: 					path to the file that contains the tide gauge data
+- stationPath: path to the file that contains the tide gauge data
 
-- gridDirectory: 				path to the file or folder that contains the altimetry data
+- gridDirectory: path to the file or folder that contains the altimetry data
 
-- boundingPath: 				optional, path to a file containing coordinates that bound the area of interest
+- boundingPath: optional, path to a file containing coordinates that bound the area of interest
 
 
 NOTE (1): 
