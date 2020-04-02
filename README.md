@@ -77,7 +77,10 @@ For each of the different output-file-types the program creates a seperate subfo
 - reconstructions: (only in reconstruction mode)
 	- trainingEpoch_reconstructionEpoch_o.nc: contains the SSA reconstruction archieved with min-error k-OD triangulation
 	- trainingEpoch_reconstructionEpoch_d.nc: contains the SSA reconstruction archieved with Delaunay triangulation
-		
+
+- sharedStations: 
+	- trainingEpoch_reconstructionEpoch.csv: contains the common tide gauge stations for training and reconstruction epoch
+
 - simpleAnomalies:
 	- trainingEpoch_reconstructionEpoch_o.nc: contains the misfit of computed SSA by ME k-ODT and reference SSA
 	- trainingEpoch_reconstructionEpoch_d.nc: Contains the misfit of computed SSA by Delaunay T and reference SSA
