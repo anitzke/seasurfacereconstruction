@@ -86,7 +86,7 @@ For each of the different output-file-types the program creates a seperate subfo
 - statistics: 
 	- statisticsLog.txt: contains some statistics for every training and reconstruction epoch
 	
-triangulationCSVs:
+- triangulationCSVs:
 	- trainingEpoch_reconstructionEpoch_o.csv: contains triangles of with min-error k-OD triangulation
 	- trainingEpoch_reconstructionEpoch_d.csv: contains triangles of Delaunay triangulation
 				
