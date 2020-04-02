@@ -87,8 +87,8 @@ For each of the different output-file-types the program creates a seperate subfo
 	- statisticsLog.txt: contains some statistics for every training and reconstruction epoch
 	
 - triangulationCSVs:
-	- trainingEpoch_reconstructionEpoch_o.csv: contains triangles of with min-error k-OD triangulation
-	- trainingEpoch_reconstructionEpoch_d.csv: contains triangles of Delaunay triangulation
+	- trainingEpoch_reconstructionEpoch_o.csv: contains triangles of the min-error k-OD triangulation
+	- trainingEpoch_reconstructionEpoch_d.csv: contains triangles of the Delaunay triangulation
 				
 - validations: 
 	- validationLog.txt: contains the validations of the computed/evaluated triangulations, if there is no such folder then all triangulations are validate
