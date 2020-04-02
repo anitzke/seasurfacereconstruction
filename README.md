@@ -5,8 +5,7 @@ INPUT:
 ---------------
 configs.txt
 
-PARAMETERS in configs.txt:
----------------
+### PARAMETERS:
 
 - mode(1): <string>				mode of processing
 							(1) "evaluate"	(default)
