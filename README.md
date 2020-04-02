@@ -11,9 +11,9 @@ configs.txt
 							(1) "evaluate"	(default)
 							(2) "reconstruct"
 
-- candidates: <string>				type of triangle candidates
-							- "empty" for Delaunay triangles
-							- "kODT" for k-order Delaunay triangles (default)
+- candidates: *string*, type of triangle candidates
+	- "empty" for Delaunay triangles
+	- "kODT" for k-order Delaunay triangles (default)
 
 - ev: <list epochs>/all				training epochs
 			
@@ -143,10 +143,3 @@ European Space Agency (ESA).
 [2]: PSMSL, 2020. Tide gauge data. Retrieved 18 Jan 2020
 from http://www.psmsl.org/data/obtaining/, Tech. Rep. ,
 Permanent Service for Mean Sea Level (PSMSL).
-
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-> 
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
